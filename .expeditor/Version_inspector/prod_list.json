@@ -41,7 +41,7 @@
 		"expr": "^(libarchive-)\\d[\\.\\d]*\\d(\\.tar\\.gz)$"
 	},
 	"libiconv": {
-		"url": "https://ftp.gnu.org/pub/gnu/libiconv",
+		"url": "https://artifacts-infisical-core.infisical.com/build-dependencies/libiconv-gnu",
 		"expr": "^(libiconv-)\\d[\\.\\d]*\\d(\\.tar\\.gz)$"
 	},
 	"libedit": {
