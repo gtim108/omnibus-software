@@ -43,7 +43,7 @@ source url: "https://gitlab.gnome.org/GNOME/libxml2/-/archive/v#{version}/libxml
 internal_source url: "#{ENV["ARTIFACTORY_REPO_URL"]}/#{name}/#{name}-v#{version}.tar.gz",
                 authorization: "X-JFrog-Art-Api:#{ENV["ARTIFACTORY_TOKEN"]}"
 
-relative_path "libxml2-#{version}"
+relative_path "libxml2-v#{version}"
 
 build do
   env = with_standard_compiler_flags(with_embedded_path)
