@@ -47,6 +47,8 @@ relative_path "libxml2-v#{version}"
 
 build do
   env = with_standard_compiler_flags(with_embedded_path)
+  
+  command './autogen.sh', env: env
 
   configure_command = [
     "--with-zlib=#{install_dir}/embedded",
