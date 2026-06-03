@@ -26,16 +26,16 @@ dependency "liblzma"
 dependency "config_guess"
 
 # version_list: url=https://download.gnome.org/sources/libxml2/ filter=*.tar.xz
-version("2.13.5") { source sha256: "74fc163217a3964257d3be39af943e08861263c4231f9ef5b496b6f6d4c7b2b6" }
-version("2.12.7") { source sha256: "24ae78ff1363a973e6d8beba941a7945da2ac056e19b53956aeb6927fd6cfb56" }
-version("2.12.5") { source sha256: "a972796696afd38073e0f59c283c3a2f5a560b5268b4babc391b286166526b21" }
-version("2.11.7") { source sha256: "fb27720e25eaf457f94fd3d7189bcf2626c6dccf4201553bc8874d50e3560162" }
-version("2.10.4") { source sha256: "ed0c91c5845008f1936739e4eee2035531c1c94742c6541f44ee66d885948d45" }
-version("2.9.14") { source sha256: "60d74a257d1ccec0475e749cba2f21559e48139efba6ff28224357c7c798dfee" }
-version("2.9.13") { source sha256: "276130602d12fe484ecc03447ee5e759d0465558fbc9d6bd144e3745306ebf0e" }
-version("2.9.12") { source sha256: "28a92f6ab1f311acf5e478564c49088ef0ac77090d9c719bbc5d518f1fe62eb9" }
-version("2.9.10") { source sha256: "593b7b751dd18c2d6abcd0c4bcb29efc203d0b4373a6df98e3a455ea74ae2813" }
-version("2.9.9")  { source sha256: "58a5c05a2951f8b47656b676ce1017921a29f6b1419c45e3baed0d6435ba03f5" }
+version("2.13.5") { source sha256: "37cdec8cd20af8ab0decfa2419b09b4337c2dbe9da5615d2a26f547449fecf2a" }
+version("2.12.7") { source sha256: "a7c1277f4e859883ff3aaa09a545561b7515e078a97eb240bb92bf5a03ae03fc" }
+version("2.12.5") { source sha256: "90f1b12db4b9f9b7282edf33ff15a104bb9caf88264fda05af4239330437e239" }
+version("2.11.7") { source sha256: "9f8a53f0becb074e90d765a264b3d4f60a7e53cb6e3672764afbf05ffbd2f247" }
+version("2.10.4") { source sha256: "1aa47bd54f9e0245686d494fbbbfa4e3e77b6fc4f988708383de8a1033292e66" }
+version("2.9.14") { source sha256: "80efe9e6b48f8aa7b9b0c47be427e2ef2dbfb2999124220ffbc0f43ca6adb98c" }
+version("2.9.13") { source sha256: "0d676b10cfd13ab966907a3917bd86b17a1c22befdf42144cdc1ad5bb9e65c45" }
+version("2.9.12") { source sha256: "98bfa7a9a5e2a75638422050740448ee9f02bf4dc2075c9822d7747d5ff9e617" }
+version("2.9.10") { source sha256: "f07dab13bf42d2b8db80620cce7419b3b87827cc937c8bb20fe13b8571ee9501" }
+version("2.9.9")  { source sha256: "d490df9133f8871d4678eb9e899313c3b238e455d45aaf64c9b10b76495b19e7" }
 
 minor_version = version.gsub(/\.\d+\z/, "")
 # source url: "https://download.gnome.org/sources/libxml2/#{minor_version}/libxml2-#{version}.tar.xz"
