@@ -26,7 +26,7 @@ skip_transitive_dependency_licensing true
 # the default versions should always be the latest release of ruby
 # if you consume this definition it is your responsibility to pin
 # to the desired version of ruby. don't count on this not changing.
-default_version "3.3.1"
+default_version "3.1.3"
 
 dependency "zlib"
 dependency "openssl"
@@ -304,11 +304,11 @@ build do
   # Remove this if clause once Ruby < 3.1 is not supported in combination with
   # OpenSSL >= 3.0
   # if (version.satisfies?("< 3.1") || fips_mode?) &&
-  # if version.satisfies?("< 3.1") &&
-  #     project.overrides[:openssl] &&
-  #     ChefUtils::VersionString.new(project.overrides[:openssl][:version]).satisfies?(">= 3.0")
-  #   configure_command << "--without-openssl --with-openssl-dir=#{install_dir}/embedded"
-  # end
+  if version.satisfies?("< 3.1") &&
+      project.overrides[:openssl] &&
+      ChefUtils::VersionString.new(project.overrides[:openssl][:version]).satisfies?(">= 3.0")
+    configure_command << "--without-openssl --with-openssl-dir=#{install_dir}/embedded"
+  end
 
   # FFS: works around a bug that infects AIX when it picks up our pkg-config
   # AFAIK, ruby does not need or use this pkg-config it just causes the build to fail.
