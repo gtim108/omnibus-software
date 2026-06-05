@@ -27,7 +27,7 @@ dependency "m4"
 
 version("2.69") { source sha256: "954bd69b391edc12d6a4a51a2dd1476543da5c6bbf05a95b59dc0dd6fd4c2969" }
 
-source url: "https://ftp.gnu.org/gnu/autoconf/autoconf-#{version}.tar.gz"
+source url: "https://mirrors.middlendian.com/gnu/autoconf/autoconf-#{version}.tar.gz"
 
 relative_path "autoconf-#{version}"
 

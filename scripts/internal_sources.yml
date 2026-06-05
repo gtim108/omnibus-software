@@ -237,13 +237,13 @@ software:
 
 - name: libtool
   sources:
-  - url: https://ftp.gnu.org/gnu/libtool/libtool-2.4.7.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/libtool/libtool-2.4.7.tar.gz
     sha256: 04e96c2404ea70c590c546eba4202a4e12722c640016c12b9b2f1ce3d481e9a8
-  - url: https://ftp.gnu.org/gnu/libtool/libtool-2.4.6.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/libtool/libtool-2.4.6.tar.gz
     sha256: e3bd4d5d3d025a36c21dd6af7ea818a2afcd4dfc1ea5a17b39d7854bcd0c06e3
-  - url: https://ftp.gnu.org/gnu/libtool/libtool-2.4.2.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/libtool/libtool-2.4.2.tar.gz
     sha256: b38de44862a987293cd3d8dfae1c409d514b6c4e794ebc93648febf9afc38918
-  - url: https://ftp.gnu.org/gnu/libtool/libtool-2.4.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/libtool/libtool-2.4.tar.gz
     sha256: 13df57ab63a94e196c5d6e95d64e53262834fe780d5e82c28f177f9f71ddf62e
 
 - name: xproto
@@ -304,13 +304,13 @@ software:
 
 - name: ncurses
   sources:
-  - url: https://ftp.gnu.org/gnu/ncurses/ncurses-6.3.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/ncurses/ncurses-6.3.tar.gz
     sha256: 97fc51ac2b085d4cde31ef4d2c3122c21abc217e9090a43a30fc5ec21684e059
-  - url: https://ftp.gnu.org/gnu/ncurses/ncurses-6.2.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/ncurses/ncurses-6.2.tar.gz
     sha256: 30306e0c76e0f9f1f0de987cf1c82a5c21e1ce6568b9227f7da5b71cbea86c9d
-  - url: https://ftp.gnu.org/gnu/ncurses/ncurses-6.1.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/ncurses/ncurses-6.1.tar.gz
     sha256: aa057eeeb4a14d470101eff4597d5833dcef5965331be3528c08d99cebaa0d17
-  - url: https://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/ncurses/ncurses-5.9.tar.gz
     sha256: 9046298fb440324c9d4135ecea7879ffed8546dd1b58e59430ea07a4633f563b
 
 - name: libedit
@@ -330,13 +330,13 @@ software:
 
 - name: libiconv
   sources:
-  - url: https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.18.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/libiconv/libiconv-1.18.tar.gz
     sha256: 3b08f5f4f9b4eb82f151a7040bfd6fe6c6fb922efe4b1659c66ea933276965e8
-  - url: https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.17.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/libiconv/libiconv-1.17.tar.gz
     sha256: 8f74213b56238c85a50a5329f77e06198771e70dd9a739779f4c02f65d971313
-  - url: https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.16.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/libiconv/libiconv-1.16.tar.gz
     sha256: e6a1b1b589654277ee790cce3734f07876ac4ccfaecbee8afa0b649cf529cc04
-  - url: https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.15.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/libiconv/libiconv-1.15.tar.gz
     sha256: ccf536620a45458d26ba83887a983b96827001e92a13847b45e4925cc8913178
 
 - name: expat
@@ -418,31 +418,31 @@ software:
 
 - name: bash
   sources:
-  - url: https://ftp.gnu.org/gnu/bash/bash-5.0.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/bash/bash-5.0.tar.gz
     sha256: b4a80f2ac66170b2913efbfb9f2594f1f76c7b1afd11f799e22035d63077fb4d
-  - url: https://ftp.gnu.org/gnu/bash/bash-5.1.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/bash/bash-5.1.tar.gz
     sha256: cc012bc860406dcf42f64431bcd3d2fa7560c02915a601aba9cd597a39329baa
-  - url: https://ftp.gnu.org/gnu/bash/bash-5.1.8.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/bash/bash-5.1.8.tar.gz
     sha256: 0cfb5c9bb1a29f800a97bd242d19511c997a1013815b805e0fdd32214113d6be
-  - url: https://ftp.gnu.org/gnu/bash/bash-5.1.16.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/bash/bash-5.1.16.tar.gz
     sha256: 5bac17218d3911834520dad13cd1f85ab944e1c09ae1aba55906be1f8192f558
 
 - name: gtar
   sources:
-  - url: https://ftp.gnu.org/gnu/tar/tar-1.34.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/tar/tar-1.34.tar.gz
     sha256: 03d908cf5768cfe6b7ad588c921c6ed21acabfb2b79b788d1330453507647aed
-  - url: https://ftp.gnu.org/gnu/tar/tar-1.33.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/tar/tar-1.33.tar.gz
     sha256: 7c77c427e8cce274d46a6325d45a55b08e13e2d2d0c9e6c0860a6d2b9589ff0e
-  - url: https://ftp.gnu.org/gnu/tar/tar-1.32.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/tar/tar-1.32.tar.gz
     sha256: b59549594d91d84ee00c99cf2541a3330fed3a42c440503326dab767f2fbb96c
-  - url: https://ftp.gnu.org/gnu/tar/tar-1.30.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/tar/tar-1.30.tar.gz
     sha256: 4725cc2c2f5a274b12b39d1f78b3545ec9ebb06a6e48e8845e1995ac8513b088
-  - url: https://ftp.gnu.org/gnu/tar/tar-1.29.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/tar/tar-1.29.tar.gz
     sha256: cae466e6e58c7292355e7080248f244db3a4cf755f33f4fa25ca7f9a7ed09af0
 
 - name: make
   sources:
-  - url: https://ftp.gnu.org/gnu/make/make-4.3.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/make/make-4.3.tar.gz
     sha256: e05fdde47c5f7ca45cb697e973894ff4f5d79e13b750ed57d7b66d8defc78e19
 
 - name: makedepend
@@ -463,11 +463,11 @@ software:
 
 - name: patch
   sources:
-  - url: https://ftp.gnu.org/gnu/patch/patch-2.7.6.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/patch/patch-2.7.6.tar.gz
     sha256: 8cf86e00ad3aaa6d26aca30640e86b0e3e1f395ed99f189b06d4c9f74bc58a4e
-  - url: https://ftp.gnu.org/gnu/patch/patch-2.7.5.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/patch/patch-2.7.5.tar.gz
     sha256: 7436f5a19f93c3ca83153ce9c5cbe4847e97c5d956e57a220121e741f6e7968f
-  - url: https://ftp.gnu.org/gnu/patch/patch-2.7.tar.gz
+  - url: https://mirrors.middlendian.com/gnu/patch/patch-2.7.tar.gz
     sha256: 59c29f56faa0a924827e6a60c6accd6e2900eae5c6aaa922268c717f06a62048
 
 - name: pkg-config-lite

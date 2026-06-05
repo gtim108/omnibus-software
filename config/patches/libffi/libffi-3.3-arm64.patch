@@ -7040,7 +7040,7 @@ diff -ur libffi-3.3/doc/texinfo.tex libffi-3.3.new/doc/texinfo.tex
 +\errmessage{%
 +ERROR: A sorted index file in an obsolete format was skipped.
 +To fix this problem, please upgrade your version of 'texi2dvi'
-+or 'texi2pdf' to that at <https://ftp.gnu.org/gnu/texinfo>.
++or 'texi2pdf' to that at <https://mirrors.middlendian.com/gnu/texinfo>.
 +If you are using an old version of 'texindex' (part of the Texinfo
 +distribution), you may also need to upgrade to a newer version (at least 6.0).
 +You may be able to typeset the index if you run
