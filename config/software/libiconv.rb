@@ -37,7 +37,7 @@ version("1.17") { source sha256: "8f74213b56238c85a50a5329f77e06198771e70dd9a739
 version("1.16") { source sha256: "e6a1b1b589654277ee790cce3734f07876ac4ccfaecbee8afa0b649cf529cc04" }
 version("1.15") { source sha256: "ccf536620a45458d26ba83887a983b96827001e92a13847b45e4925cc8913178" }
 
-source url: "https://mirrors.middlendian.com/gnu/libiconv/libiconv-#{version}.tar.gz"
+source url: "https://ftp.wayne.edu/gnu/libiconv/libiconv-#{version}.tar.gz"
 internal_source url: "#{ENV["ARTIFACTORY_REPO_URL"]}/#{name}/#{name}-#{version}.tar.gz",
                 authorization: "X-JFrog-Art-Api:#{ENV["ARTIFACTORY_TOKEN"]}"
 
